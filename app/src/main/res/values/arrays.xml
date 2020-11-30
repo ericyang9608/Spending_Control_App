@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="expense_res">
+        <item>@mipmap/repast_white</item>
+        <item>@mipmap/traffic_white</item>
+        <item>@mipmap/shopping_white</item>
+        <item>@mipmap/communication_white</item>
+        <item>@mipmap/recreation_white</item>
+        <item>@mipmap/travel_white</item>
+        <item>@mipmap/pet_white</item>
+        <item>@mipmap/medical_white</item>
+        <item>@mipmap/maintenance_white</item>
+        <item>@mipmap/other_expense_white</item>
+    </integer-array>
+
+    <string-array name="expense_name">
+        <item>Repast</item>
+        <item>Traffic</item>
+        <item>Shopping</item>
+        <item>Communication</item>
+        <item>Recreation</item>
+        <item>Travel</item>
+        <item>Pet</item>
+        <item>Medical</item>
+        <item>Maintenance</item>
+        <item>OtherExpense</item>
+    </string-array>
+
+    <integer-array name="income_res">
+        <item>@mipmap/salary_white</item>
+        <item>@mipmap/interest_white</item>
+        <item>@mipmap/part_time_white</item>
+        <item>@mipmap/other_white</item>
+    </integer-array>
+
+    <string-array name="income_name">
+        <item>Salary</item>
+        <item>Investment</item>
+        <item>PartTime</item>
+        <item>OtherIncome</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AccountAssis</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_account_name">Please enter the name of the book</string>
+    <string name="text_sure">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="no_data">Temporarily no data</string>
+    <string name="about_app">Developer: Huaiyuan Yang.\n
+        \n
+        Introduction of app:\n\n
+            Accounting software uses computer software to record the income and expenditure of assets. It not only provides a convenient tool for data collection and collation, but also provides reliable basic materials for data analysis.
+        \n\n
+            When implementing the functionality of the app, I used some open source frameworks, as follows:
+        \n\n
+            1. Android-PickerView in order to better choose the time.Https://github.com/Bigkoo/Android-PickerView.
+        \n\n
+            2. MPAndroidChart.Https://github.com/PhilJay/MPAndroidChart</string>
+</resources>

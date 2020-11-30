@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/classifyIcon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@mipmap/repast_white"
+        android:backgroundTint="@color/blueColor"
+        app:layout_constraintBottom_toTopOf="@id/line"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/classifyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/black3"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/progress"
+        app:layout_constraintEnd_toStartOf="@id/classifyPercent"
+        app:layout_constraintStart_toEndOf="@id/classifyIcon"
+        app:layout_constraintTop_toTopOf="@id/classifyIcon" />
+
+    <TextView
+        android:id="@+id/classifyPercent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:gravity="center|start"
+        android:textColor="@color/gray8f"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/classifyName"
+        app:layout_constraintEnd_toStartOf="@id/classifyAmount"
+        app:layout_constraintStart_toEndOf="@id/classifyName"
+        app:layout_constraintTop_toTopOf="@id/classifyName" />
+
+    <TextView
+        android:id="@+id/classifyAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:textColor="@color/black3"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/classifyName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/classifyPercent"
+        app:layout_constraintTop_toTopOf="@id/classifyName" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="6dp"
+        android:max="100"
+        android:progressBackgroundTint="@color/grayCc"
+        android:progressTint="@color/blueColor"
+        app:layout_constraintBottom_toBottomOf="@id/classifyIcon"
+        app:layout_constraintEnd_toEndOf="@id/classifyAmount"
+        app:layout_constraintStart_toStartOf="@id/classifyName"
+        app:layout_constraintTop_toBottomOf="@id/classifyName" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/gray8f"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/classifyAmount"
+        app:layout_constraintStart_toStartOf="@id/classifyName"
+        app:layout_constraintTop_toBottomOf="@id/classifyIcon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

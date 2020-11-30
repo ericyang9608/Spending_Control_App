@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <group
+        android:id="@+id/navigation_group01"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_detail"
+            android:checked="true"
+            android:icon="@mipmap/detail"
+            android:title="Detail" />
+        <item
+            android:id="@+id/nav_budget_detail"
+            android:icon="@mipmap/budget"
+            android:title="Budget Detail" />
+
+        <item
+            android:id="@+id/nav_chart"
+            android:icon="@mipmap/chart"
+            android:title="Chart" />
+
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@mipmap/annual_bill"
+            android:title="Annual Bill" />
+
+        <item
+            android:id="@+id/nav_app"
+            android:icon="@mipmap/about_app"
+            android:title="About App" />
+    </group>
+
+
+    <group
+        android:id="@+id/navigation_group02"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@mipmap/nav_exit"
+            android:title="Exit" />
+    </group>
+</menu>
